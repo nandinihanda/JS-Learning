@@ -22,3 +22,33 @@ let number= 33
 let stringNumber= String(number)
 console.log(stringNumber)
 console.log(typeof stringNumber)
+
+//**********************************Operations*************************************
+
+let value = 3
+let negvalue = -value
+console.log(negvalue)
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2**2) //power
+console.log(2/3)
+console.log(2%3)
+
+let str1 = "nandini"
+
+let str2 = " handa"
+let str3 = str1 + str2
+console.log(str3);
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
+let counter = 100
+counter++ //postfix, gives value 101
+console.log(counter)
+
+++counter //prefix, gives value 102
+console.log(counter)
+
