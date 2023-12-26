@@ -41,3 +41,8 @@ console.log(obj4);
 
 const obj5={...obj1,...obj2}
 console.log(obj5);
+
+console.log(Object.keys(gmailuser));
+console.log(Object.values(gmailuser));
+console.log(Object.entries(gmailuser));
+console.log(gmailuser.hasOwnProperty("number"));
